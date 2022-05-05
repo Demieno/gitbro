@@ -12,13 +12,7 @@ setup(
     entry_points=dict(
         console_scripts=[
             'gitbro=gitbro.mock.main:run',
-            'gist=gitbro.gist.main:run',
-            'gibr=gitbro.gibr.main:run',
-            'gidf=gitbro.gidf.main:run',
-            'giad=gitbro.giad.main:run',
-            'gibk=gitbro.gibk.main:run',
             'gilg=gitbro.gilg.main:run',
-            'gime=gitbro.gime.main:run',
         ]
     )
 )
