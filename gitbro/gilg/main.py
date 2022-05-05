@@ -22,7 +22,7 @@ def run():
                         version=f'%(prog)s {version}',
                         help="Show program's version number and exit.")
     parser.add_argument('-h', '--help', action='help',
-                        help='Example: gilg -g help l 5 -> git log -i --grep=help  -5 ')
+                        help='Example: gilg -g help -l 5 -> git log -i --grep=help  -5 ')
     parser.add_argument('-g', '-i --grep', help='grep')
     parser.add_argument('-e', '-i --grep --invert-grep', help='invert-grep')
     parser.add_argument('-c', '--compare', help='compare')
