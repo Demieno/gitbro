@@ -29,7 +29,7 @@ def run():
     parser.add_argument('-p', '--pretty', help="--pretty=format:'%C(yellow)%h%Creset'")
     parser.add_argument('-t', '--graph', help='graph')
     parser.add_argument('-d', '--patch-with-stat', help='patch-with-stat')
-    parser.add_argument('-o', '--oneline', help='grep_regex')
+    parser.add_argument('-o', '--oneline', help='oneline')
     parser.add_argument('-l', '--len', help='len list log')
     args = parser.parse_args()
 
