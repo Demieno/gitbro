@@ -26,7 +26,7 @@ class BashGitLogList:
             list_results = ListResultsCaseIgnored()
 
             found = 'master'
-            if len(self.args.c) > 0:
+            if len(self.args.compare) > 0:
                 found = list_results.find_branch_by_partial(self.args.compare)
 
             self.action = self.action.format(grep='{0}..'.format(found))
